@@ -1,0 +1,43 @@
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="robots" content="noindex" />
+<script src="//cdn.jsdelivr.net/npm/@clappr/player@0.4.0/dist/clappr.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/mux.js@5.6.7/dist/mux.min.js"></script>
+<script src='//cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js'></script>
+<script src='//cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js'></script>
+<script src='//cdn.jsdelivr.net/npm/clappr-pip@latest/dist/clappr-pip.min.js'></script>
+<script src='//cdn.jsdelivr.net/npm/clappr-playback-rate-plugin@latest/dist/clappr-playback-rate-plugin.min.js'></script>
+<script src="//cdn.jsdelivr.net/npm/shaka-player@2.5.10/dist/shaka-player.compiled.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/clappr/dash-shaka-playback@latest/dist/dash-shaka-playback.external.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/cdnbye-shaka@latest"></script>
+<style> 
+  
+  .player-poster[data-poster] {
+    background-size: cover;
+  }
+  body{
+    margin:0;
+    padding:0;
+  }
+  
+  </style>
+</head>
+<div id="player"></div>
+<script>
+var _0xfeb4=["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6C\x69\x6E\x65\x61\x72\x30\x30\x34\x2D\x67\x62\x2D\x64\x61\x73\x68\x31\x2D\x70\x72\x64\x2D\x61\x6B\x2E\x63\x64\x6E\x2E\x73\x6B\x79\x63\x64\x70\x2E\x63\x6F\x6D\x2F\x31\x30\x30\x65\x2F\x43\x6F\x6E\x74\x65\x6E\x74\x2F\x44\x41\x53\x48\x5F\x30\x30\x33\x5F\x73\x6D\x2F\x4C\x69\x76\x65\x2F\x63\x68\x61\x6E\x6E\x65\x6C\x28\x73\x6B\x79\x73\x70\x6F\x72\x74\x73\x66\x31\x29\x2F\x6D\x61\x6E\x69\x66\x65\x73\x74\x5F\x68\x64\x2E\x6D\x70\x64","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x58\x59\x6A\x44\x68\x63\x57\x70\x2F\x53\x69\x6E\x2D\x74\x2D\x74\x75\x6C\x6F\x32\x32\x2E\x6A\x70\x67","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x64\x61\x73\x68\x2B\x78\x6D\x6C","\x31\x30\x30\x25","\x50\x69\x70\x42\x75\x74\x74\x6F\x6E","\x50\x69\x70\x50\x6C\x75\x67\x69\x6E","\x4D\x65\x64\x69\x61\x43\x6F\x6E\x74\x72\x6F\x6C","\x63\x6C\x69\x63\x6B\x5F\x74\x6F\x5F\x70\x61\x75\x73\x65","\x67\x65\x74\x50\x6C\x75\x67\x69\x6E","\x64\x69\x73\x61\x62\x6C\x65","\x39\x44\x46\x42\x37\x37\x43\x30","\x76\x69\x64\x65\x6F\x2F\x6D\x70\x34","\x4D\x6F\x74\x6F\x50\x6C\x61\x79","\x35\x32\x32\x36\x36\x31\x39\x33\x66\x62\x63\x39\x63\x34\x35\x65\x65\x64\x36\x66\x63\x38\x35\x33\x30\x39\x32\x36\x31\x32\x38\x36","\x23\x70\x6C\x61\x79\x65\x72"];var _0x6330=[_0xfeb4[0],_0xfeb4[1],_0xfeb4[2],_0xfeb4[3],_0xfeb4[4],_0xfeb4[5],_0xfeb4[6],_0xfeb4[7],_0xfeb4[8],_0xfeb4[9],_0xfeb4[10],_0xfeb4[11],_0xfeb4[12],_0xfeb4[13],_0xfeb4[14]];var player= new Clappr.Player({source:_0x6330[0],poster:_0x6330[1],mimeType:_0x6330[2],height:_0x6330[3],width:_0x6330[3],plugins:[LevelSelector,DashShakaPlayback,ChromecastPlugin,ClapprPip[_0x6330[4]],ClapprPip[_0x6330[5]],Clappr[_0x6330[6]]],events:{onReady:function(){var _0x6a75x3=this[_0x6330[8]](_0x6330[7]);_0x6a75x3&& _0x6a75x3[_0x6330[9]]()}},chromecast:{appId:_0x6330[10],contentType:_0x6330[11]},strings:{'\x65\x6E':{'\x6C\x69\x76\x65':_0x6330[12]}},shakaConfiguration:{drm:{clearKeys:{'\x30\x30\x30\x33\x38\x65\x38\x65\x37\x37\x35\x38\x31\x65\x39\x61\x63\x32\x66\x37\x63\x62\x35\x37\x65\x37\x37\x34\x65\x61\x63\x38':_0x6330[13]}}},shakaOnBeforeLoad:function(_0x6a75x4){},parentId:_0x6330[14]})
+  </script>
+        <script type="text/javascript" language="Javascript">
+document.oncontextmenu = function(){return false}
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/console-ban@4.1.0/dist/console-ban.min.js"></script>
+  <script>
+    // default options
+    ConsoleBan.init()
+    // custom options
+    ConsoleBan.init({
+      redirect: 'https://www.google.com/'
+    })
+  </script>
+</html>
