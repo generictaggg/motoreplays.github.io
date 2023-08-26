@@ -22,6 +22,7 @@
     }
   </style>
 </head>
+
 <script type="text/javascript">
 function getParameterByName(name) {
   name = name.replace(/[\[]/, "\[").replace(/[\]]/, "\]");
@@ -31,19 +32,21 @@ function getParameterByName(name) {
 }
 
 var getURL = getParameterByName('');
-var getKEY  = getParameterByName('k');
-var getKEY2  = getParameterByName('k2');
+var getIMG = getParameterByName('img');
+var getKEY  = getParameterByName('key');
+var getKEY2  = getParameterByName('key2');
 if (getURL == "#") {alert('Vuelve a la página anterior');}
 if (getURL == "") {location.href="https://bit.ly/motoplayapp";}
 </script>
 <script src='https://content.jwplatform.com/libraries/KB5zFt7A.js'></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
 <script> jwplayer.key='XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';</script>
 <div id="player"></div>
 <script type="text/javascript">
-var _0xefd9=["","\x70\x6C\x61\x79\x65\x72","\x4E\x6F\x64\x6F\x53\x70\x6F\x72\x74\x73\x20\x7C\x20\x54\x77\x69\x74\x74\x65\x72\x3A\x20\x40\x6E\x6F\x64\x6F\x61\x70\x70\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x62\x69\x74\x2E\x6C\x79\x2F\x6D\x6F\x74\x6F\x70\x6C\x61\x79\x61\x70\x70","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x50\x4A\x78\x36\x51\x7A\x35\x64\x2F\x64\x64\x64\x64\x64\x2D\x31\x2E\x6A\x70\x67","\x64\x61\x73\x68","\x30","\x31\x30\x30\x25","\x31\x30\x30\x76\x68","\x73\x65\x74\x75\x70","\x6C\x65\x76\x65\x6C\x73\x43\x68\x61\x6E\x67\x65\x64","\x6C\x65\x76\x65\x6C\x73","\x73\x6F\x75\x72\x63\x65\x73","\x67\x65\x74\x50\x6C\x61\x79\x6C\x69\x73\x74\x49\x74\x65\x6D","\x6C\x65\x6E\x67\x74\x68","\x73\x65\x74\x43\x75\x72\x72\x65\x6E\x74\x51\x75\x61\x6C\x69\x74\x79","\x6F\x6E","\x66\x69\x72\x73\x74\x46\x72\x61\x6D\x65"];var mt=_0xefd9[0];var playerInstance=jwplayer(_0xefd9[1]);playerInstance[_0xefd9[9]]({playlist:[{"\x74\x69\x74\x6C\x65":_0xefd9[2],"\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E":_0xefd9[3],"\x69\x6D\x61\x67\x65":_0xefd9[4],"\x73\x6F\x75\x72\x63\x65\x73":[{"\x64\x65\x66\x61\x75\x6C\x74":false,"\x74\x79\x70\x65":_0xefd9[5],"\x66\x69\x6C\x65":mt+ atob(getURL),"\x64\x72\x6D":{"\x63\x6C\x65\x61\x72\x6B\x65\x79":{"\x6B\x65\x79\x49\x64":atob(getKEY),"\x6B\x65\x79":atob(getKEY2)}},"\x6C\x61\x62\x65\x6C":_0xefd9[6]}]}],width:_0xefd9[7],height:_0xefd9[8],aspectratio:_0xefd9[0],autostart:false,cast:{}});var currentQualityIndex=-1;var qualityLevels=[];playerInstance[_0xefd9[16]](_0xefd9[10],function(){qualityLevels= playerInstance[_0xefd9[13]]()[_0xefd9[12]][0][_0xefd9[11]];currentQualityIndex= qualityLevels[_0xefd9[14]]- 1;playerInstance[_0xefd9[15]](currentQualityIndex)});playerInstance[_0xefd9[16]](_0xefd9[17],function(){if(currentQualityIndex> 0){currentQualityIndex--;playerInstance[_0xefd9[15]](currentQualityIndex)}})
+var _0x7dce=["\x31\x30\x30\x76\x68","\x39\x34\x36\x37\x5A\x4D\x7A\x58\x4A\x46","\x6C\x65\x6E\x67\x74\x68","\x31\x35\x30\x37\x31\x37\x6A\x6F\x54\x6F\x4E\x64","\x6C\x65\x76\x65\x6C\x73","\x36\x31\x35\x36\x33\x34\x30\x61\x79\x6E\x42\x70\x44","\x36\x71\x49\x46\x61\x58\x4F","\x64\x61\x73\x68","\x31\x38\x70\x4B\x61\x67\x63\x4F","\x67\x65\x74\x50\x6C\x61\x79\x6C\x69\x73\x74\x49\x74\x65\x6D","\x73\x65\x74\x43\x75\x72\x72\x65\x6E\x74\x51\x75\x61\x6C\x69\x74\x79","\x33\x39\x38\x71\x51\x47\x47\x6B\x53","\x4D\x6F\x74\x6F\x50\x6C\x61\x79\x20\x7C\x20\x54\x77\x69\x74\x74\x65\x72\x3A\x20\x40\x6E\x6F\x64\x6F\x61\x70\x70\x73","\x31\x30\x30\x25","\x35\x34\x35\x32\x34\x36\x30\x62\x7A\x61\x4E\x6C\x43","\x66\x69\x72\x73\x74\x46\x72\x61\x6D\x65","\x6C\x65\x76\x65\x6C\x73\x43\x68\x61\x6E\x67\x65\x64","\x31\x30\x30\x65\x4F\x47\x47\x69\x4C","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x69\x2E\x70\x6F\x73\x74\x69\x6D\x67\x2E\x63\x63\x2F\x6D\x6B\x35\x6D\x58\x7A\x50\x43\x2F\x6D\x6F\x74\x6F\x70\x6C\x61\x61\x79\x2E\x6A\x70\x67","\x33\x32\x34\x39\x31\x32\x54\x71\x73\x59\x54\x69","\x37\x30\x30\x35\x32\x32\x32\x78\x7A\x55\x46\x52\x41","\x70\x6C\x61\x79\x65\x72","\x33\x33\x33\x31\x35\x33\x32\x36\x4B\x45\x55\x6C\x64\x63","\x73\x65\x74\x75\x70","\x73\x68\x69\x66\x74","\x70\x75\x73\x68","","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x62\x69\x74\x2E\x6C\x79\x2F\x6D\x6F\x74\x6F\x70\x6C\x61\x79\x61\x70\x70","\x30","\x73\x6F\x75\x72\x63\x65\x73","\x6F\x6E"];function _0xded4(){var _0xcc37x2=[_0x7dce[0],_0x7dce[1],_0x7dce[2],_0x7dce[3],_0x7dce[4],_0x7dce[5],_0x7dce[6],_0x7dce[7],_0x7dce[8],_0x7dce[9],_0x7dce[10],_0x7dce[11],_0x7dce[12],_0x7dce[13],_0x7dce[14],_0x7dce[15],_0x7dce[16],_0x7dce[17],_0x7dce[18],_0x7dce[19],_0x7dce[20],_0x7dce[21],_0x7dce[22],_0x7dce[23]];_0xded4= function(){return _0xcc37x2};return _0xded4()}var _0x5ac093=_0x5504;(function(_0xcc37x4,_0xcc37x5){var _0xcc37x6=_0x5504,_0xcc37x7=_0xcc37x4();while(!![]){try{var _0xcc37x8=parseInt(_0xcc37x6(0x81))/ 0x1* (parseInt(_0xcc37x6(0x73))/ 0x2)+ parseInt(_0xcc37x6(0x6b))/ 0x3* (parseInt(_0xcc37x6(0x79))/ 0x4)+ parseInt(_0xcc37x6(0x6d))/ 0x5* (parseInt(_0xcc37x6(0x6e))/ 0x6)+ -parseInt(_0xcc37x6(0x7c))/ 0x7+ parseInt(_0xcc37x6(0x7b))/ 0x8* (parseInt(_0xcc37x6(0x70))/ 0x9)+ parseInt(_0xcc37x6(0x76))/ 0xa+ -parseInt(_0xcc37x6(0x7e))/ 0xb;if(_0xcc37x8=== _0xcc37x5){break}else {_0xcc37x7[_0x7dce[25]](_0xcc37x7[_0x7dce[24]]())}}catch(_0x324e88){_0xcc37x7[_0x7dce[25]](_0xcc37x7[_0x7dce[24]]())}}}(_0xded4,0xec62e));var mt=_0x7dce[26],playerInstance=jwplayer(_0x5ac093(0x7d)),imageFallbackUrl=_0x5ac093(0x7a);playerInstance[_0x5ac093(0x7f)]({'\x70\x6C\x61\x79\x6C\x69\x73\x74':[{'\x74\x69\x74\x6C\x65':_0x5ac093(0x74),'\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6F\x6E':_0x7dce[27],'\x69\x6D\x61\x67\x65':getIMG|| imageFallbackUrl,'\x73\x6F\x75\x72\x63\x65\x73':[{'\x64\x65\x66\x61\x75\x6C\x74':![],'\x74\x79\x70\x65':_0x5ac093(0x6f),'\x66\x69\x6C\x65':mt+ getURL,'\x64\x72\x6D':{'\x63\x6C\x65\x61\x72\x6B\x65\x79':{'\x6B\x65\x79\x49\x64':getKEY,'\x6B\x65\x79':getKEY2}},'\x6C\x61\x62\x65\x6C':_0x7dce[28]}]}],'\x77\x69\x64\x74\x68':_0x5ac093(0x75),'\x68\x65\x69\x67\x68\x74':_0x5ac093(0x80),'\x61\x73\x70\x65\x63\x74\x72\x61\x74\x69\x6F':_0x7dce[26],'\x61\x75\x74\x6F\x73\x74\x61\x72\x74':![],'\x63\x61\x73\x74':{}});var currentQualityIndex=-0x1,qualityLevels=[];function _0x5504(_0xcc37xf,_0xcc37x10){var _0xcc37x11=_0xded4();return _0x5504= function(_0xcc37x12,_0xcc37x13){_0xcc37x12= _0xcc37x12- 0x6b;var _0xcc37x14=_0xcc37x11[_0xcc37x12];return _0xcc37x14},_0x5504(_0xcc37xf,_0xcc37x10)}playerInstance[_0x7dce[30]](_0x5ac093(0x78),function(){var _0xcc37x15=_0x5ac093;qualityLevels= playerInstance[_0xcc37x15(0x71)]()[_0x7dce[29]][0x0][_0xcc37x15(0x6c)],currentQualityIndex= qualityLevels[_0xcc37x15(0x82)]- 0x1,playerInstance[_0xcc37x15(0x72)](currentQualityIndex)}),playerInstance[_0x7dce[30]](_0x5ac093(0x77),function(){var _0xcc37x16=_0x5ac093;currentQualityIndex> 0x0&& (currentQualityIndex--,playerInstance[_0xcc37x16(0x72)](currentQualityIndex))})
 </script>
-        <script type="text/javascript" language="Javascript">
+     <script type="text/javascript" language="Javascript">
 document.oncontextmenu = function(){return false}
 </script>
   <script src="https://cdn.jsdelivr.net/npm/console-ban@4.1.0/dist/console-ban.min.js"></script>
@@ -52,7 +55,7 @@ document.oncontextmenu = function(){return false}
     ConsoleBan.init()
     // custom options
     ConsoleBan.init({
-      redirect: 'https://www.google.com/'
+      redirect: 'https://twitter.com/nodoapps'
     })
   </script>
 </html>
